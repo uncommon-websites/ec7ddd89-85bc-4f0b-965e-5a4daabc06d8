@@ -7,10 +7,10 @@
 	];
 </script>
 
-<section class="relative overflow-hidden border-b border-gray-200 bg-white pt-20 pb-16">
+<section class="relative overflow-hidden border-b border-slate-200 bg-gradient-to-br from-red-50 via-white to-slate-50 pt-20 pb-16">
 	<!-- Geometric Decoration Top Right -->
 	<div class="absolute top-0 right-0 h-64 w-64 opacity-10 pointer-events-none">
-		<svg viewBox="0 0 100 100" class="h-full w-full stroke-gray-400" fill="none">
+		<svg viewBox="0 0 100 100" class="h-full w-full stroke-red-300" fill="none">
 			<path d="M0 0 L100 100 M50 0 L100 50 M0 50 L50 100" stroke-width="0.5" />
 			<rect x="50" y="0" width="50" height="50" stroke-width="0.5" />
 		</svg>
@@ -20,8 +20,8 @@
 		<div class="mx-auto max-w-4xl text-center">
 			<!-- Badge -->
 			<div class="mb-8 flex justify-center">
-				<a href="#" class="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-gray-50 px-3 py-1 text-[10px] font-bold tracking-widest text-gray-700 hover:bg-gray-100 uppercase">
-					<span class="text-gray-500">Licensed</span>
+				<a href="#" class="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-[10px] font-bold tracking-widest text-slate-700 hover:bg-slate-100 uppercase">
+					<span class="text-slate-500">Licensed</span>
 					Swedish Credit Market Company &rsaquo;
 				</a>
 			</div>
@@ -48,32 +48,32 @@
 		</div>
 
 		<!-- Trust Indicators -->
-		<div class="flex flex-wrap items-center justify-center gap-12 border-t border-gray-200 pt-8">
+		<div class="flex flex-wrap items-center justify-center gap-12 border-t border-slate-200 pt-8">
 			<div class="flex items-center gap-3">
-				<div class="flex h-10 w-10 items-center justify-center rounded-full bg-gray-900 text-white font-bold text-xs">
+				<div class="flex h-10 w-10 items-center justify-center rounded-full bg-slate-900 text-white font-bold text-xs">
 					<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
 				</div>
 				<div>
 					<div class="text-xs font-bold text-gray-900 uppercase tracking-widest">Licensed</div>
-					<div class="text-xs text-gray-500">Credit Market Company</div>
+					<div class="text-xs text-slate-600">Credit Market Company</div>
 				</div>
 			</div>
 			<div class="flex items-center gap-3">
-				<div class="flex h-10 w-10 items-center justify-center rounded-full bg-gray-900 text-white font-bold text-xs">
+				<div class="flex h-10 w-10 items-center justify-center rounded-full bg-red-600 text-white font-bold text-xs">
 					<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20"/></svg>
 				</div>
 				<div>
 					<div class="text-xs font-bold text-gray-900 uppercase tracking-widest">Discreet</div>
-					<div class="text-xs text-gray-500">Confidential Process</div>
+					<div class="text-xs text-slate-600">Confidential Process</div>
 				</div>
 			</div>
 			<div class="flex items-center gap-3">
-				<div class="flex h-10 w-10 items-center justify-center rounded-full bg-gray-900 text-white font-bold text-xs">
+				<div class="flex h-10 w-10 items-center justify-center rounded-full bg-slate-900 text-white font-bold text-xs">
 					<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
 				</div>
 				<div>
 					<div class="text-xs font-bold text-gray-900 uppercase tracking-widest">Fast</div>
-					<div class="text-xs text-gray-500">Decision in Days</div>
+					<div class="text-xs text-slate-600">Decision in Days</div>
 				</div>
 			</div>
 		</div>

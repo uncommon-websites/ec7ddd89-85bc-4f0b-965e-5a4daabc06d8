@@ -1,12 +1,12 @@
-<section class="py-24 bg-gray-50 border-t border-b border-gray-200">
+<section class="py-24 bg-slate-50 border-t border-b border-slate-200">
 	<div class="mx-auto max-w-[1400px] px-6">
 		<div class="mb-12 text-center">
-			<div class="mb-4 text-[10px] font-bold tracking-widest text-gray-500 uppercase">[02] AI-Powered Analysis</div>
+			<div class="mb-4 text-[10px] font-bold tracking-widest text-slate-500 uppercase">[02] AI-Powered Analysis</div>
 			<h2 class="text-4xl font-medium tracking-tight text-gray-900">Technology that understands complexity</h2>
 		</div>
 
 		<!-- Diagram Area -->
-		<div class="relative mb-16 overflow-hidden rounded-xl bg-gray-950 p-12 min-h-[500px] flex items-center justify-center">
+		<div class="relative mb-16 overflow-hidden rounded-xl bg-gradient-to-br from-slate-950 via-slate-900 to-red-950 p-12 min-h-[500px] flex items-center justify-center">
 			<!-- Background Grid -->
 			<div class="absolute inset-0 opacity-10" 
 				style="background-image: linear-gradient(#ffffff 1px, transparent 1px), linear-gradient(to right, #ffffff 1px, transparent 1px); background-size: 50px 50px;">
@@ -95,34 +95,34 @@
 		<!-- Features Grid -->
 		<div class="grid grid-cols-1 gap-8 md:grid-cols-3">
 			<!-- Col 1 -->
-			<div class="rounded-lg border border-gray-200 bg-white p-6">
-				<div class="mb-4 inline-block rounded bg-gray-100 px-2 py-1 text-[10px] font-bold tracking-widest text-gray-700 uppercase">
+			<div class="rounded-lg border border-slate-200 bg-white p-6">
+				<div class="mb-4 inline-block rounded bg-red-100 px-2 py-1 text-[10px] font-bold tracking-widest text-red-700 uppercase">
 					Ownership Analysis
 				</div>
 				<h3 class="mb-3 text-lg font-bold text-gray-900">Complex structures decoded</h3>
-				<p class="text-sm leading-relaxed text-gray-600">
+				<p class="text-sm leading-relaxed text-slate-600">
 					Our <strong class="text-gray-900">AI analyzes intricate ownership structures</strong> that traditional banks can't process—from unlisted shares to partnership stakes and fund commitments.
 				</p>
 			</div>
 
 			<!-- Col 2 -->
-			<div class="rounded-lg border border-gray-200 bg-white p-6">
-				<div class="mb-4 inline-block rounded bg-gray-100 px-2 py-1 text-[10px] font-bold tracking-widest text-gray-700 uppercase">
+			<div class="rounded-lg border border-slate-200 bg-white p-6">
+				<div class="mb-4 inline-block rounded bg-slate-100 px-2 py-1 text-[10px] font-bold tracking-widest text-slate-700 uppercase">
 					Market Intelligence
 				</div>
 				<h3 class="mb-3 text-lg font-bold text-gray-900">Real-time valuations</h3>
-				<p class="text-sm leading-relaxed text-gray-600">
+				<p class="text-sm leading-relaxed text-slate-600">
 					<strong class="text-gray-900">Advanced valuation models</strong> leverage comparable transactions, market trends, and financial intelligence to accurately price illiquid assets.
 				</p>
 			</div>
 
 			<!-- Col 3 -->
-			<div class="rounded-lg border border-gray-200 bg-white p-6">
-				<div class="mb-4 inline-block rounded bg-gray-100 px-2 py-1 text-[10px] font-bold tracking-widest text-gray-700 uppercase">
+			<div class="rounded-lg border border-slate-200 bg-white p-6">
+				<div class="mb-4 inline-block rounded bg-red-100 px-2 py-1 text-[10px] font-bold tracking-widest text-red-700 uppercase">
 					Risk Assessment
 				</div>
 				<h3 class="mb-3 text-lg font-bold text-gray-900">Scenario modeling</h3>
-				<p class="text-sm leading-relaxed text-gray-600">
+				<p class="text-sm leading-relaxed text-slate-600">
 					<strong class="text-gray-900">Comprehensive risk analysis</strong> models multiple liquidity scenarios, ensuring sustainable loan structures that protect both parties.
 				</p>
 			</div>

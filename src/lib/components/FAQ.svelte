@@ -28,24 +28,24 @@
 	];
 </script>
 
-<section class="py-24">
+<section class="py-24 bg-gradient-to-b from-white to-slate-50">
 	<div class="mx-auto max-w-[1400px] px-6">
 		<div class="grid grid-cols-1 gap-16 lg:grid-cols-12">
 			<!-- Left Side -->
 			<div class="lg:col-span-4">
-				<div class="mb-4 text-[10px] font-bold tracking-widest text-gray-500 uppercase">[05] FAQ</div>
+				<div class="mb-4 text-[10px] font-bold tracking-widest text-slate-500 uppercase">[05] FAQ</div>
 				<h2 class="mb-6 text-4xl font-medium tracking-tight text-gray-900">Your questions, answered</h2>
-				<p class="mb-8 text-lg leading-relaxed text-gray-600">
+				<p class="mb-8 text-lg leading-relaxed text-slate-600">
 					Have more questions? Our team is ready to discuss your specific situation in a confidential consultation.
 				</p>
-				<a href="mailto:hello@fuelscapital.com" class="inline-block bg-gray-900 px-6 py-3 text-[11px] font-bold tracking-widest text-white transition-colors hover:bg-gray-800 uppercase">
+				<a href="mailto:hello@fuelscapital.com" class="inline-block bg-slate-900 px-6 py-3 text-[11px] font-bold tracking-widest text-white transition-colors hover:bg-red-600 uppercase">
 					Contact Us
 				</a>
 			</div>
 
 			<!-- Right Side (Accordion) -->
 			<div class="lg:col-span-8">
-				<div class="divide-y divide-gray-200 border-t border-b border-gray-200">
+				<div class="divide-y divide-slate-200 border-t border-b border-slate-200">
 					{#each faqs as faq, i}
 						<div class="group">
 							<button 
@@ -53,7 +53,7 @@
 								onclick={() => openIndex = openIndex === i ? -1 : i}
 							>
 								<span class="text-lg font-medium text-gray-900">{faq.question}</span>
-								<span class="ml-4 flex h-6 w-6 items-center justify-center text-gray-400">
+								<span class="ml-4 flex h-6 w-6 items-center justify-center text-red-400">
 									{#if openIndex === i}
 										<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
 									{:else}
@@ -62,7 +62,7 @@
 								</span>
 							</button>
 							{#if openIndex === i}
-								<div class="pb-6 text-gray-600 leading-relaxed">
+								<div class="pb-6 text-slate-600 leading-relaxed">
 									{faq.answer}
 								</div>
 							{/if}

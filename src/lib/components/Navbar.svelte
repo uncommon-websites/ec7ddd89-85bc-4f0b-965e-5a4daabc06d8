@@ -11,7 +11,7 @@
 	</div>
 
 	<!-- Main Navigation -->
-	<nav class="border-b border-gray-200 px-6 py-4">
+	<nav class="border-b border-slate-200 px-6 py-4 bg-white/80 backdrop-blur-sm">
 		<div class="mx-auto flex max-w-[1400px] items-center justify-between">
 			<!-- Logo and Left Links -->
 			<div class="flex items-center gap-12">
@@ -24,7 +24,7 @@
 				
 				<div class="hidden items-center gap-8 md:flex">
 					{#each ['Solutions', 'How It Works', 'Articles', 'About'] as item}
-						<a href="#" class="flex items-center gap-1 text-[11px] font-semibold tracking-widest text-gray-600 hover:text-gray-900 uppercase">
+						<a href="#" class="flex items-center gap-1 text-[11px] font-semibold tracking-widest text-slate-600 hover:text-red-600 uppercase transition-colors">
 							{item}
 							{#if item === 'Solutions'}
 								<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="opacity-50"><path d="m6 9 6 6 6-6"/></svg>
@@ -36,13 +36,13 @@
 
 			<!-- Right Actions -->
 			<div class="flex items-center gap-6">
-				<a href="#" class="text-[11px] font-semibold tracking-widest text-gray-600 hover:text-gray-900 uppercase">
+				<a href="#" class="text-[11px] font-semibold tracking-widest text-slate-600 hover:text-slate-900 uppercase transition-colors">
 					Svenska
 				</a>
-				<a href="mailto:hello@fuelscapital.com" class="text-[11px] font-semibold tracking-widest text-gray-600 hover:text-gray-900 uppercase">
+				<a href="mailto:hello@fuelscapital.com" class="text-[11px] font-semibold tracking-widest text-slate-600 hover:text-red-600 uppercase transition-colors">
 					Contact
 				</a>
-				<a href="#" class="bg-gray-900 px-4 py-2 text-[11px] font-bold tracking-widest text-white transition-colors hover:bg-gray-800 uppercase">
+				<a href="#" class="bg-slate-900 px-4 py-2 text-[11px] font-bold tracking-widest text-white transition-colors hover:bg-red-600 uppercase">
 					Schedule Meeting
 				</a>
 			</div>

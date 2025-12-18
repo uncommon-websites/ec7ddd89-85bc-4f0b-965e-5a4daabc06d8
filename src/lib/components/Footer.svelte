@@ -1,4 +1,4 @@
-<footer class="relative overflow-hidden bg-gray-950 pt-24 pb-8 text-white">
+<footer class="relative overflow-hidden bg-gradient-to-br from-slate-950 via-slate-900 to-red-950 pt-24 pb-8 text-white">
 	<!-- Geometric Pattern Background -->
 	<div class="absolute inset-0 opacity-5 pointer-events-none" 
 		style="background-image: linear-gradient(#ffffff 1px, transparent 1px), linear-gradient(to right, #ffffff 1px, transparent 1px); background-size: 60px 60px; transform: perspective(500px) rotateX(60deg) translateY(-50px) scale(2);">
@@ -14,10 +14,10 @@
 				Schedule a discreet consultation to explore your options.
 			</p>
 			<div class="flex justify-center gap-4">
-				<a href="#" class="bg-white px-6 py-3 text-[11px] font-bold tracking-widest text-gray-900 hover:bg-gray-100 uppercase whitespace-nowrap">
+				<a href="#" class="bg-white px-6 py-3 text-[11px] font-bold tracking-widest text-slate-900 hover:bg-red-50 uppercase whitespace-nowrap transition-colors">
 					Schedule Meeting
 				</a>
-				<a href="mailto:hello@fuelscapital.com" class="border border-white/20 bg-white/5 px-6 py-3 text-[11px] font-bold tracking-widest text-white hover:bg-white/10 uppercase whitespace-nowrap">
+				<a href="mailto:hello@fuelscapital.com" class="border border-red-400/30 bg-red-500/10 px-6 py-3 text-[11px] font-bold tracking-widest text-white hover:bg-red-500/20 uppercase whitespace-nowrap transition-colors">
 					Email Us
 				</a>
 			</div>
@@ -80,8 +80,8 @@
 				<a href="#" class="hover:text-white">Deutsch</a>
 			</div>
 			<div class="flex gap-2 items-center">
-				<div class="h-8 px-3 rounded bg-white/10 flex items-center justify-center text-white font-bold text-[10px] tracking-widest uppercase">Licensed</div>
-				<div class="h-8 px-3 rounded bg-white/10 flex items-center justify-center text-white font-bold text-[10px] tracking-widest uppercase">Regulated</div>
+				<div class="h-8 px-3 rounded bg-slate-700/50 flex items-center justify-center text-white font-bold text-[10px] tracking-widest uppercase">Licensed</div>
+				<div class="h-8 px-3 rounded bg-red-700/50 flex items-center justify-center text-white font-bold text-[10px] tracking-widest uppercase">Regulated</div>
 			</div>
 		</div>
 	</div>
