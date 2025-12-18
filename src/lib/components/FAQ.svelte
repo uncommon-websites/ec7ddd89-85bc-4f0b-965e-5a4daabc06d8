@@ -2,28 +2,28 @@
 	let openIndex = 0;
 	const faqs = [
 		{
-			question: "Who can use Juicebox?",
-			answer: "Juicebox is built for recruiters. If you are searching for hard-to-find talent, Juicebox is a fit for you. We work with companies ranging from Fortune 500 to boutique recruiting agencies — and hopefully, you too."
+			question: "What types of assets can be used as collateral?",
+			answer: "We accept unlisted shares in startups, partnership stakes, fund commitments, and other illiquid ownership positions. Our AI-powered analysis can evaluate complex structures that traditional banks typically reject."
 		},
 		{
-			question: "Can I try Juicebox for free?",
-			answer: "Yes! We offer a free trial so you can experience the power of our AI agents firsthand."
+			question: "How discreet is the process?",
+			answer: "Completely confidential. Your loan won't affect your company or make your ownership stake visible to others. We understand that privacy is paramount for high-net-worth individuals and founders."
 		},
 		{
-			question: "Can I use Juicebox with my team?",
-			answer: "Absolutely. Juicebox is designed for collaboration, allowing your entire recruiting team to share insights and candidate pools."
+			question: "How long does it take to get funding?",
+			answer: "We provide a concrete loan proposal within a few days of your initial consultation. Once approved, funds are typically disbursed within 3-5 business days."
 		},
 		{
-			question: "How long does it take to set up and start using Juicebox?",
-			answer: "You can get started in minutes. Our onboarding is streamlined to get you sourcing candidates immediately."
+			question: "Do I need to sell my shares?",
+			answer: "No. That's the entire point. Fuels provides liquidity through collateralized lending, allowing you to access capital while maintaining your ownership stake and future upside potential."
 		},
 		{
-			question: "Does Juicebox have global candidate data?",
-			answer: "Yes, we have access to over 800M+ profiles globally across various industries and regions."
+			question: "What are the typical loan terms?",
+			answer: "Terms vary based on your specific situation and collateral. We offer flexible structures with competitive rates, typically ranging from 12-36 months. Everything is customized to your needs."
 		},
 		{
-			question: "Will it integrate with my ATS or CRM?",
-			answer: "We integrate with all major ATS and CRM platforms including Greenhouse, Lever, Ashby, and more."
+			question: "Is Fuels regulated?",
+			answer: "Yes. Fuels operates under 0TO9 AB, a licensed credit market company authorized to conduct financing operations under Swedish law (2004:297) regarding banking and financing operations."
 		}
 	];
 </script>
@@ -33,13 +33,13 @@
 		<div class="grid grid-cols-1 gap-16 lg:grid-cols-12">
 			<!-- Left Side -->
 			<div class="lg:col-span-4">
-				<div class="mb-4 text-[10px] font-bold tracking-widest text-gray-500 uppercase">[06] FAQ</div>
+				<div class="mb-4 text-[10px] font-bold tracking-widest text-gray-500 uppercase">[05] FAQ</div>
 				<h2 class="mb-6 text-4xl font-medium tracking-tight text-gray-900">Your questions, answered</h2>
 				<p class="mb-8 text-lg leading-relaxed text-gray-600">
-					We're here to help. Reach out to our sales team for guidance on how to integrate Juicebox into your recruiting workflow.
+					Have more questions? Our team is ready to discuss your specific situation in a confidential consultation.
 				</p>
-				<a href="#" class="inline-block bg-gray-900 px-6 py-3 text-[11px] font-bold tracking-widest text-white transition-colors hover:bg-gray-800 uppercase">
-					Book a Demo
+				<a href="mailto:hello@fuelscapital.com" class="inline-block bg-gray-900 px-6 py-3 text-[11px] font-bold tracking-widest text-white transition-colors hover:bg-gray-800 uppercase">
+					Contact Us
 				</a>
 			</div>
 

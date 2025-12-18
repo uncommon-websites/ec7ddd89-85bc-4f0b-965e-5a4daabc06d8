@@ -1,45 +1,65 @@
-<section class="py-24 bg-gray-50">
+<section class="py-24 bg-white">
 	<div class="mx-auto max-w-[1400px] px-6">
-		<div class="mb-12 flex items-end justify-between">
-			<div>
-				<div class="mb-4 text-[10px] font-bold tracking-widest text-gray-500 uppercase">[04] Customer Stories</div>
-				<h2 class="text-4xl font-medium tracking-tight text-gray-900">How top teams win with Juicebox</h2>
-			</div>
-			<div class="flex gap-2">
-				<button class="flex h-10 w-10 items-center justify-center border border-gray-200 bg-white hover:bg-gray-50">
-					<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m15 18-6-6 6-6"/></svg>
-				</button>
-				<button class="flex h-10 w-10 items-center justify-center border border-gray-200 bg-white hover:bg-gray-50">
-					<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
-				</button>
-			</div>
+		<div class="mb-12">
+			<div class="mb-4 text-[10px] font-bold tracking-widest text-gray-500 uppercase">[03] Client Success</div>
+			<h2 class="text-4xl font-medium tracking-tight text-gray-900">Founders who chose liquidity over forced exits</h2>
 		</div>
 
 		<div class="grid grid-cols-1 gap-8 md:grid-cols-2">
-			<!-- Story 1 -->
-			<div class="group cursor-pointer">
-				<div class="relative mb-6 overflow-hidden bg-gray-200 aspect-video">
-					<img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=80" alt="CoinTracker Team" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
-					<div class="absolute top-4 left-4 flex items-center gap-2 text-white font-bold drop-shadow-md">
-						<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>
-						CoinTracker
+			<!-- Testimonial 1 -->
+			<div class="border border-gray-200 bg-gray-50 p-8">
+				<div class="mb-6">
+					<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" class="text-gray-300">
+						<path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/>
+						<path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/>
+					</svg>
+				</div>
+				<p class="mb-6 text-lg leading-relaxed text-gray-700">
+					"I needed capital to invest in a new opportunity but didn't want to sell my shares. Fuels understood my situation immediately and structured a loan that let me keep my ownership while accessing the liquidity I needed."
+				</p>
+				<div class="flex items-center gap-4">
+					<div class="h-12 w-12 rounded-full bg-gray-300"></div>
+					<div>
+						<div class="text-sm font-bold text-gray-900">Erik Lindström</div>
+						<div class="text-xs text-gray-500">Founder, Nordic Tech Startup</div>
 					</div>
 				</div>
-				<h3 class="mb-2 text-xl font-medium text-gray-900">How CoinTracker Saves 30+ Hours on Sourcing with AI Agents</h3>
-				<p class="text-xs text-gray-500">Valentina Miner, Full-Cycle Recruiter @ CoinTracker</p>
 			</div>
 
-			<!-- Story 2 -->
-			<div class="group cursor-pointer">
-				<div class="relative mb-6 overflow-hidden bg-gray-200 aspect-video">
-					<img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&q=80" alt="Monte Carlo Team" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
-					<div class="absolute top-4 left-4 flex items-center gap-2 text-white font-bold drop-shadow-md">
-						<div class="bg-white text-black p-1 text-xs font-bold">MC</div>
-						MONTE CARLO
+			<!-- Testimonial 2 -->
+			<div class="border border-gray-200 bg-gray-50 p-8">
+				<div class="mb-6">
+					<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" class="text-gray-300">
+						<path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/>
+						<path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/>
+					</svg>
+				</div>
+				<p class="mb-6 text-lg leading-relaxed text-gray-700">
+					"Traditional banks couldn't understand our partnership structure. Fuels' AI-powered analysis made sense of it within days, and we had funding in our account faster than I thought possible."
+				</p>
+				<div class="flex items-center gap-4">
+					<div class="h-12 w-12 rounded-full bg-gray-300"></div>
+					<div>
+						<div class="text-sm font-bold text-gray-900">Sofia Andersson</div>
+						<div class="text-xs text-gray-500">Partner, Investment Firm</div>
 					</div>
 				</div>
-				<h3 class="mb-2 text-xl font-medium text-gray-900">How Monte Carlo Filled 2 Senior Engineering Roles in 3 Weeks</h3>
-				<p class="text-xs text-gray-500">Brenda Tam, Global Head of Recruiting & HR</p>
+			</div>
+		</div>
+
+		<!-- Stats Bar -->
+		<div class="mt-16 grid grid-cols-1 gap-8 border-t border-gray-200 pt-12 md:grid-cols-3">
+			<div class="text-center">
+				<div class="mb-2 text-4xl font-bold text-gray-900">€50M+</div>
+				<div class="text-sm text-gray-600">Capital Deployed</div>
+			</div>
+			<div class="text-center">
+				<div class="mb-2 text-4xl font-bold text-gray-900">3-5 Days</div>
+				<div class="text-sm text-gray-600">Average Turnaround</div>
+			</div>
+			<div class="text-center">
+				<div class="mb-2 text-4xl font-bold text-gray-900">100%</div>
+				<div class="text-sm text-gray-600">Confidential Process</div>
 			</div>
 		</div>
 	</div>
