@@ -17,12 +17,14 @@
 	</div>
 
 	<div class="mx-auto max-w-[1400px] px-6">
-		<div class="max-w-3xl">
+		<div class="mx-auto max-w-4xl text-center">
 			<!-- Badge -->
-			<a href="#" class="mb-8 inline-flex items-center gap-2 rounded-full border border-gray-200 bg-gray-50 px-3 py-1 text-[10px] font-bold tracking-widest text-gray-700 hover:bg-gray-100 uppercase">
-				<span class="text-gray-500">Licensed</span>
-				Swedish Credit Market Company &rsaquo;
-			</a>
+			<div class="mb-8 flex justify-center">
+				<a href="#" class="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-gray-50 px-3 py-1 text-[10px] font-bold tracking-widest text-gray-700 hover:bg-gray-100 uppercase">
+					<span class="text-gray-500">Licensed</span>
+					Swedish Credit Market Company &rsaquo;
+				</a>
+			</div>
 
 			<!-- Headline -->
 			<h1 class="mb-6 text-7xl font-medium tracking-tight text-gray-900">
@@ -30,12 +32,12 @@
 			</h1>
 
 			<!-- Subhead -->
-			<p class="mb-10 max-w-xl text-lg leading-relaxed text-gray-600">
+			<p class="mb-10 mx-auto max-w-2xl text-lg leading-relaxed text-gray-600">
 				Fuels converts <strong class="font-semibold text-gray-900">illiquid assets into immediate capital</strong> through collateralized lending. Access the liquidity you need without selling your ownership stake.
 			</p>
 
 			<!-- Buttons -->
-			<div class="mb-24 flex items-center gap-4">
+			<div class="mb-24 flex items-center justify-center gap-4">
 				<a href="#" class="bg-gray-900 px-6 py-3 text-[11px] font-bold tracking-widest text-white transition-colors hover:bg-gray-800 uppercase">
 					Schedule Meeting
 				</a>
@@ -46,7 +48,7 @@
 		</div>
 
 		<!-- Trust Indicators -->
-		<div class="flex flex-wrap items-center gap-12 border-t border-gray-200 pt-8">
+		<div class="flex flex-wrap items-center justify-center gap-12 border-t border-gray-200 pt-8">
 			<div class="flex items-center gap-3">
 				<div class="flex h-10 w-10 items-center justify-center rounded-full bg-gray-900 text-white font-bold text-xs">
 					<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
